@@ -311,6 +311,7 @@ footer .box a {
 .bottom-footer {
   text-align: center;
   padding-top: 50px;
+  font-size: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -328,6 +329,10 @@ footer .box a {
 
   .right-footer {
     flex: 2;
+  }
+
+  .bottom-footer {
+    font-size: 9px;
   }
 }
 
@@ -414,16 +419,21 @@ section svg {
   section {
     height: auto;
     flex-direction: column-reverse;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 30px 20px;
   }
 
   section > img {
     height: 40%;
+    margin-right: 50px;
   }
 
   section svg {
     width: auto;
+  }
+
+  #boxes {
+    height: auto;
+    padding: 30px 0;
   }
 }
 

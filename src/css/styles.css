@@ -292,7 +292,8 @@ nav {
 .footer li {
   line-height: 2em;
 }
-  
+
+ 
 .footer a {
   text-decoration: none;
 }
@@ -324,6 +325,7 @@ footer .box a {
 .bottom-footer {
   text-align: center;
   padding-top: 50px;
+  font-size: 10px;
 }
   
 @media screen and (min-width: 768px) {
@@ -341,6 +343,10 @@ footer .box a {
   
   .right-footer {
   flex: 2 0px;
+  }
+  
+  .bottom-footer {
+    font-size: 9px;
   }
 }
 
@@ -435,15 +441,24 @@ section svg {
   section {
     flex-direction: column-reverse;
     height: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-
   section > img {
     height: 40%;
+    margin-right: 50px;
   }
   section svg {
     width: auto;
+  }
+
+  #boxes {
+    height: auto;
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
