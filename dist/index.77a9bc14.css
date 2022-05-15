@@ -421,10 +421,14 @@ section svg {
   }
 }
 
-#musica {
-  transform-origin: center;
-  transform-box: fill-box;
-  animation: body 1.5s ease-in-out infinite alternate;
+@keyframes mouth-right {
+  from {
+    transform: translateY(7%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
 }
 
 #boxes {
@@ -465,7 +469,7 @@ section svg {
   section {
     height: auto;
     flex-direction: column-reverse;
-    padding: 30px 20px;
+    padding: 30px 20px 40px;
   }
 
   section > img {
@@ -481,6 +485,11 @@ section svg {
   #boxes {
     height: auto;
     padding: 30px 0;
+  }
+
+  #autor {
+    flex-direction: column;
+    padding-top: 100px;
   }
 }
 
@@ -615,6 +624,12 @@ img {
   text-align: center;
   background-color: #e7e7e7;
   font-size: .8rem;
+}
+
+.path {
+  clip-path: circle(40%);
+  width: 200px;
+  margin-bottom: 0;
 }
 
 .links li {
