@@ -371,7 +371,7 @@ section p {
 }
 
 section svg {
-  width: 160px;
+  width: auto;
 }
 
 #ghosts {
@@ -382,11 +382,11 @@ section svg {
 
 @keyframes body {
   from {
-    transform: translateY(10%);
+    transform: translateY(3%);
   }
 
   to {
-    transform: translateY(20%);
+    transform: translateX(0%);
   }
 }
 
@@ -426,6 +426,10 @@ section svg {
     width: 60%;
     margin-top: 0;
     margin-right: 50px;
+  }
+
+  section svg {
+    width: auto;
   }
 
   #boxes {
