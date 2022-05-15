@@ -437,6 +437,20 @@ section svg {
   }
 }
 
+#musica {
+  animation: body 1.5s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes body {
+  from {
+    transform: translateY(7%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
 
 /* boxes */
 #boxes {

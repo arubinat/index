@@ -421,6 +421,12 @@ section svg {
   }
 }
 
+#musica {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: body 1.5s ease-in-out infinite alternate;
+}
+
 #boxes {
   height: auto;
   width: 100%;
