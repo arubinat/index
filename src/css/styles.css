@@ -374,9 +374,12 @@ section h1 {
 
 section:nth-child(2){
   background-color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
 }
+
 section:nth-child(4){
   background-color: white;
+  clip-path: polygon(0 0, 100% 20%, 100% 90%, 0 100%);
 }
 
 section img {
@@ -396,14 +399,14 @@ section svg {
 }
 
 #ghosts {
-  animation: body 1s ease-in-out infinite alternate;
+  animation: body 1.5s ease-in-out infinite alternate;
   transform-origin: center;
   transform-box: fill-box;
 }
 
 @keyframes body {
   from {
-    transform: translateY(3%);
+    transform: translateY(7%);
   }
   to {
     transform: translateX(0%);
