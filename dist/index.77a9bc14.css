@@ -414,12 +414,12 @@ section svg {
   section {
     height: auto;
     flex-direction: column-reverse;
-    padding: 50px 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   section > img {
     height: 40%;
-    margin-right: 50px;
   }
 
   section svg {

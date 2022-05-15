@@ -437,12 +437,10 @@ section svg {
     height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
   }
+
   section > img {
     height: 40%;
-    margin-right: 50px;
   }
   section svg {
     width: auto;
