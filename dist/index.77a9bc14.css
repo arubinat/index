@@ -371,7 +371,7 @@ section p {
 }
 
 section svg {
-  width: auto;
+  width: 160px;
 }
 
 #ghosts {
@@ -423,12 +423,9 @@ section svg {
   }
 
   section > img {
-    height: 40%;
+    width: 60%;
+    margin-top: 0;
     margin-right: 50px;
-  }
-
-  section svg {
-    width: auto;
   }
 
   #boxes {

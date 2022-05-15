@@ -190,7 +190,6 @@ nav {
   line-height: 80px;
   display: none;
   cursor: pointer;
-  
 }
 
 @media only screen and (max-width: 768px), screen and (orientation: portrait) {
@@ -393,7 +392,7 @@ section p {
 /* title */
 /*SVG*/
 section svg {
-  width: auto;
+  width: 160px;
 }
 
 #ghosts {
@@ -447,11 +446,9 @@ section svg {
     padding-right: 20px;
   }
   section > img {
-    height: 40%;
+    width: 60%;
     margin-right: 50px;
-  }
-  section svg {
-    width: auto;
+    margin-top: 0;
   }
 
   #boxes {
