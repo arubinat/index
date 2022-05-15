@@ -433,16 +433,38 @@ section svg {
     transform: translateY(7%);
   }
   to {
-    transform: translateX(0%);
+    transform: translateY(2%);
   }
 }
 
-@keyframes mouth-right {
+#heart {
+  animation: heart 1.5s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes heart {
   from {
-    transform: translateY(7%);
+    transform: translateX(30%);
   }
   to {
-    transform: translateX(0%);
+    transform: translateX(10%);
+  }
+}
+
+#heart_2 {
+  animation: heart_2 1.5s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes heart_2 {
+  from {
+    transform: translateX(60%);
+  }
+  to {
+    transform: translateY(80%);
+    transform: translateX(56%);
   }
 }
 
