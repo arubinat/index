@@ -192,6 +192,7 @@ nav {
     background-color: var(--secondary-color);
     height: calc(100% - 50px);
     width: 100%;
+    z-index: 100;
     flex-direction: column;
     align-items: center;
     margin-right: 40px;
