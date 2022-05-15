@@ -387,7 +387,7 @@ section p {
 /* title */
 /*SVG*/
 section svg {
-  width: 28%;
+  width: auto;
 }
 
 #ghosts {
@@ -443,7 +443,7 @@ section svg {
     margin-right: 50px;
   }
   section svg {
-    width: 55%;
+    width: auto;
   }
 }
 
